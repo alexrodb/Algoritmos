@@ -1,0 +1,112 @@
+JavaScript
+
+var a, b, c, min3, min2;
+
+// Describe this function...
+function minimo3(a, b, c) {
+  if (a < b) {
+    min2 = a;
+  } else {
+    min2 = b;
+  }
+  if (min2 < c) {
+    min3 = min2;
+  } else {
+    min3 = c;
+  }
+  return min3;
+}
+
+
+window.alert('El mínimo de 45, 85 y 100 es  ' + String(minimo3(45, 85, 100)));
+
+
+Python
+
+a = None
+b = None
+c = None
+min3 = None
+min2 = None
+
+# Describe this function...
+def minimo3(a, b, c):
+  global min3, min2
+  if a < b:
+    min2 = a
+  else:
+    min2 = b
+  if min2 < c:
+    min3 = min2
+  else:
+    min3 = c
+  return min3
+
+
+print('El mínimo de 45, 85 y 100 es  ' + str(minimo3(45, 85, 100)))
+
+
+PHP
+// Describe this function...
+function minimo3($a, $b, $c) {
+  global $min3, $min2;
+  if ($a < $b) {
+    $min2 = $a;
+  } else {
+    $min2 = $b;
+  }
+  if ($min2 < $c) {
+    $min3 = $min2;
+  } else {
+    $min3 = $c;
+  }
+  return $min3;
+}
+
+
+print('El mínimo de 45, 85 y 100 es  ' . minimo3(45, 85, 100));
+
+Lua
+-- Describe this function...
+function minimo3(a, b, c)
+  if a < b then
+    min2 = a
+  else
+    min2 = b
+  end
+  if min2 < c then
+    min3 = min2
+  else
+    min3 = c
+  end
+  return min3
+end
+
+
+
+print('El mínimo de 45, 85 y 100 es  ' .. minimo3(45, 85, 100))
+
+Dart
+
+var a, b, c, min3, min2;
+
+/// Describe this function...
+dynamic minimo3(a, b, c) {
+  if (a < b) {
+    min2 = a;
+  } else {
+    min2 = b;
+  }
+  if (min2 < c) {
+    min3 = min2;
+  } else {
+    min3 = c;
+  }
+  return min3;
+}
+
+
+main() {
+  print(['El mínimo de 45, 85 y 100 es  ',minimo3(45, 85, 100)].join());
+}
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0001 - Mínimo de 3 números</title>
+</head>
+<body>
+    <h1>0001 - Mínimo de 3 números</h1>
+    <p>Encontrar el mínimo de 3 números, no importa si los números son negativos o positivos, decimales o enteros, irracionales o trascendentes.</p>
+
+    <h3>Pseudocódigo:</h3>
+    <pre>
+    Mínimo de 3 números (a, b, c)
+    Si a menor que b entonces 
+    min2 = a
+    si no
+    min2 = b
+    si min2 menor que c entonces
+    min 3 = min2
+    si no 
+    min3 = c
+    </pre>
+
+    <h3>Complejidad:</h3>
+    <p>Mismos números de pasos, siempre recibimos los mismos datos, es constante.</p>
+
+    <h3>PSeInt</h3>
+    <img src="PSeInt0001.png" alt="PSeInt0001">
+    <img src="PSeInt0001PSDraw.png" alt="PSeInt0001PSDraw">
+
+    <h3>Scratch</h3>
+    <img src="Scratch0001.png" alt="Scratch0001.png">
+    <a href="https://scratch.mit.edu/projects/652657704">https://scratch.mit.edu/projects/652657704</a>
+    <iframe src="https://scratch.mit.edu/projects/652657704/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    
+    <h3>Blockly</h3>
+    <img src="Blockly0001.png" alt="Blockly0001.png">
+
+    <h4>Ejemplos de código en diferentes lenguajes de programación</h4>
+
+    <h3>JavaScript</h3>
+    <img src="JSdo0001.jpg" alt="JSdo0001.jpg">
+
+    <pre>
+        <code>
+            <script>
+                function minimo3(a, b, c) {
+                    var min2;
+                    var min3;
+                    
+                      if (a < b) {
+                        min2 = a;
+                      } else {
+                        min2 = b;
+                      }
+                      if (min2 < c) {
+                        min3 = min2;
+                      } else {
+                        min3 = c;
+                      }
+                      return min3;
+                }
+                
+                document.write(minimo3(6, 15, 30));
+                document.write('<br/>');
+            </script>
+
+        </code>
+    </pre>
+    
+
+</body>
+</html>
