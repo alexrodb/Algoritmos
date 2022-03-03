@@ -1,0 +1,70 @@
+JavaScript
+
+var b, h, A;
+
+// Describe this function...
+function areaTriangulo(b, h) {
+  A = (b * h) / 2;
+  return A;
+}
+
+
+window.alert('El área del triángulo es:' + String(areaTriangulo(14, 10)));
+
+
+Python
+
+b = None
+h = None
+A = None
+
+# Describe this function...
+def areaTriangulo(b, h):
+  global A
+  A = (b * h) / 2
+  return A
+
+
+print('El área del triángulo es:' + str(areaTriangulo(14, 10)))
+
+
+PHP
+// Describe this function...
+function areaTriangulo($b, $h) {
+  global $A;
+  $A = ($b * $h) / 2;
+  return $A;
+}
+
+
+print('El área del triángulo es:' . areaTriangulo(14, 10));
+
+
+print('El mínimo de 45, 85 y 100 es  ' . minimo3(45, 85, 100));
+
+Lua
+
+-- Describe this function...
+function areaTriangulo(b, h)
+  A = (b * h) / 2
+  return A
+end
+
+
+
+print('El área del triángulo es:' .. areaTriangulo(14, 10))
+
+Dart
+
+var b, h, A;
+
+/// Describe this function...
+dynamic areaTriangulo(b, h) {
+  A = (b * h) / 2;
+  return A;
+}
+
+
+main() {
+  print(['El área del triángulo es:',areaTriangulo(14, 10)].join());
+}
